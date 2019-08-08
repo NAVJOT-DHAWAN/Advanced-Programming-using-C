@@ -1,5 +1,5 @@
 #include <stdio.h>
-/* Include other headers as needed */
+
 int main()
 {
 
@@ -27,6 +27,6 @@ int main()
     printf("\n");
     t--;
   }
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    
     return 0;
 }
