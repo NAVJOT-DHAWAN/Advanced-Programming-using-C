@@ -1,12 +1,14 @@
 #include<stdio.h>
-#define size 5
+#define size 10
 
 int a1[size],a2[size];
 int top1=-1,top2=-1;
-int isFull()
+
+int isFull()          //Function to Check if the Queue is full or not.
 {
 	return top1==(size-1);
 }
+
 int isEmpty()
 {
 	return top2==-1;
@@ -29,7 +31,7 @@ int Dequeue()       //Function to Remove Elements from the Queue.
 	int temp;
 	if(top1<0&&top2<0)
 	{
-		printf("Queue is Already Empty if want to remove the element then Enquue first\n");
+		printf("Queue is Already Empty if want to remove the element then Enqueue first\n");
 		return -1;
 	}
 	else
